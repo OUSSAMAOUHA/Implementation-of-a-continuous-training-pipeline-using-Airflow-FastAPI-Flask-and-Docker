@@ -1,0 +1,8 @@
+[2024-01-05T19:25:16.170+0000] {processor.py:161} INFO - Started process (PID=36) to work on /opt/airflow/dags/dag2.py
+[2024-01-05T19:25:16.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2024-01-05T19:25:16.176+0000] {logging_mixin.py:188} INFO - [2024-01-05T19:25:16.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2024-01-05T19:25:16.486+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-01-05T19:25:16.498+0000] {processor.py:840} INFO - DAG(s) 'Diabetes_App3' retrieved from /opt/airflow/dags/dag2.py
+[2024-01-05T19:25:16.545+0000] {logging_mixin.py:188} INFO - [2024-01-05T19:25:16.544+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-05T19:25:16.640+0000] {logging_mixin.py:188} INFO - [2024-01-05T19:25:16.640+0000] {dag.py:3820} INFO - Setting next_dagrun for Diabetes_App3 to 2024-01-05T20:00:00+00:00, run_after=2024-01-05T21:00:00+00:00
+[2024-01-05T19:25:16.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag2.py took 0.622 seconds

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/themForm.css">
+    <title>Diabetes Prediction Form</title>
+</head>
+<body>
+     <div class="container">
+        <h1>Diabetes Prediction Form</h1>
+
+        <form action="/predict" method="post">
+            <!-- Ajoutez des champs pour chaque caractéristique -->
+            Pregnancies: <input type="text" name="Pregnancies"><br>
+            Glucose: <input type="text" name="Glucose"><br>
+            Blood Pressure: <input type="text" name="BloodPressure"><br>
+            Skin Thickness: <input type="text" name="SkinThickness"><br>
+            Insulin: <input type="text" name="Insulin"><br>
+            BMI: <input type="text" name="BMI"><br>
+            DPF: <input type="text" name="DPF"><br>
+            Age: <input type="text" name="Age"><br>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
