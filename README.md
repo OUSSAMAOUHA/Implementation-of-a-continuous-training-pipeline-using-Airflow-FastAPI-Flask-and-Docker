@@ -102,12 +102,3 @@ If you find some problems related to pycaret package, do check the following lin
 
 
 
-
-
-## Collaborators : 
-
-The contributors for this project:
-
-- [LAYOUNE Ghita](https://github.com/Bam04bi)
-- [HANIM Hanae](https://github.com/hhanae)
-- [YOUSFI Meryem](https://github.com/MeryemYOUSFI15)
